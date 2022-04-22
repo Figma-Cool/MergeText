@@ -20,7 +20,7 @@ async function mergeText() {
     }
   });
   figma.notify("Done!");
+  figma.closePlugin();
 }
 
 mergeText();
-figma.closePlugin();
